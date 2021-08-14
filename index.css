@@ -54,27 +54,19 @@
   align-items: center;
   justify-content: center;
   flex: 1 1 20px;
-  /* margin-top: 100px; */
-  
   height: 480px;
   min-width: 385px;
   max-width: 550px;
   margin: var(--spacer-m);
   box-sizing: border-box;
   border-radius: 10px;
-  /* border: 1px solid var(--clr-primary-grey2); */
-}
-
-.mark-logo {
-  width: 150px;
-  height: 150px;
-  margin: var(--spacer-m);
 }
 
 .title {
+  margin-top: var(--spacer-l);
   font-size: 20px;
   font-family: 'Arial Narrow Bold', sans-serif;
-  color: var(--clr-font-white);
+  color: var(--clr-font-beige);
 }
 
 
@@ -198,7 +190,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  margin: var(--spacer-l) 0;
+  margin: 0 0 var(--spacer-l) 0;
   padding: var(--spacer-l) auto;
   box-sizing: border-box;
 }
@@ -218,7 +210,7 @@ body {
 
   font-size: var(--fs-s);
   line-height: 1.5rem;
-  font-family:var(--ff-primary);
+  font-family: var(--ff-primary);
   color: var(--clr-font-beige);
 }
 
@@ -621,6 +613,16 @@ canvas {
 
 
 
+@media (max-width: 500px) {
+  .user-profile-container {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  .content-section {
+    border: none;
+  }
+}
 
 
 
