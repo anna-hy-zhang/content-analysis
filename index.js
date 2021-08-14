@@ -66,7 +66,7 @@ async function getRepoData() {
 typebox.addEventListener('keydown', (event) => {
   if (event.code === 'Enter') {
     username = typebox.value;
-    window.location.href = `file:///Users/anna/workspace/tweet-analyzer/user-profile.html?search=${username}`;
+    window.location.href = `user-profile.html?search=${username}`;
     getProfileData();
     getRepoData();
   }
