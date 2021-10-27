@@ -1,7 +1,7 @@
-# github-profile-redesign
+# github-stats-profile
 
 Visit the app here:
-https://anna-hy-zhang.github.io/profile-redesign/
+https://anna-hy-zhang.github.io/github-stats-profile/
 
 ## Description
 
